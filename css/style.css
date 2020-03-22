@@ -21,7 +21,7 @@ body {
     border-color: cadetblue;
     border-width: 100px;
     padding: 56px;
-    text-decoration-color: cornsilk;
+    text-decoration: none;
     background-color: #dfbf0047;
     color: white;
     font-size: 3.5em;
