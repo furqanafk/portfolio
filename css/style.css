@@ -16,6 +16,8 @@ body {
     border-color: cadetblue;
     border-width: 100px;
     padding: 56px;
-    margin: 110px;
     text-decoration-color: cornsilk;
+    background-color: #dfbf0047;
+    color: white;
+    font-size: 3.5em;
 }
