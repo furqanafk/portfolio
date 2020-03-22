@@ -11,7 +11,16 @@ body {
     display: block;
     margin: auto;
     width: fit-content;
+    margin-top: 92px;
 
+}
+
+.social {
+
+    align-items: center;
+    display: block;
+    width: fit-content;
+    margin-top: 500px;
 }
 
 .header {
