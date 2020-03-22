@@ -16,11 +16,13 @@ body {
 }
 
 .social {
+    margin-top: 400px;
+    
+    width: 129px;
 
-    align-items: center;
-    display: block;
-    width: fit-content;
-    margin-top: 500px;
+    text-align: center;
+
+    height: 57px;
 }
 
 .header {
