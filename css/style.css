@@ -6,12 +6,9 @@ body {
     background-size: cover;
 }
 
-.social {
-    color: rgb(211, 77, 67);
-    text-align: center;
-    display:block;
-    font-size: 20px;
-    text-decoration: none;
+.logo {
+    align-items: center;
+    display: block;
 
 }
 
