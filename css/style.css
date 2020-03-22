@@ -9,8 +9,8 @@ body {
 .social {
     color: rgb(211, 77, 67);
     text-align: center;
+    display:block;
     font-size: 20px;
-    align-items: center;
 
 
 }
