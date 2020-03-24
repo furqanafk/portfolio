@@ -1,9 +1,66 @@
 body {
-    background: url(../images/bg1.jpg) no-repeat center center fixed;
+    background: url(../images/bglow-8.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 61px;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+body {
+    color: white !important;
+    margin: 0;
+}
+
+.pstn-ab {
+    position: absolute;
+    z-index: -1;
+}
+
+
+.ball1 {
+    bottom: 20px;
+    left: 28px;
+    width: 22%;
+}
+
+.ball2 {
+    top: 195px;
+    left: 99px;
+    width: 11%;
+}
+
+.ball3 {
+    top: 92px;
+    left: 324px;
+    width: 15%;
+}
+
+.ball4 {
+    top: 195px;
+    right: 82px;
+    width: 28%;
+}
+
+.ball5 {
+    top: 295px;
+    right: 82px;
+    width: 11%;
+}
+
+.ball6 {
+    top: 95px;
+    right: 82px;
+    width: 15%;
 }
 
 .logo {
@@ -11,28 +68,84 @@ body {
     display: block;
     margin: auto;
     width: fit-content;
-    margin-top: 92px;
+    margin-top: 110px;
 
 }
 
 .social {
-    margin-top: 400px;
-    
-    width: 129px;
-
-    text-align: center;
-
-    height: 57px;
+    width: 3%;
 }
 
-.header {
+.pstn-ab {
+    position: absolute;
+    z-index: -1;
+}
+
+p {
+
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-    display: block;
-    border-color: cadetblue;
-    border-width: 100px;
-    padding: 56px;
+    margin-top: 11px;
+    margin-bottom: 55px;
+
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin: top;
+    padding-top: 1px;
+}
+
+a {
     text-decoration: none;
-    background-color: #dfbf0047;
     color: white;
-    font-size: 3.5em;
+}
+
+nav a {
+    padding: 26px 31px;
+    width: 118px;
+    text-align: center;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #000328ad;
+    border-bottom: solid;
+    font-size: 13px;
+}
+
+
+.button-primary {
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    width: 150px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+    background-color:white;
+}
+
+.button-primary button:hover {
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.15);
+
+}
+
+    transform: translateY(1px);
+    box-shadow: inset 0 3px 0 0 rgba(0,0,0,0.15);
+  }
+.social-links {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
