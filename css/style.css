@@ -118,7 +118,7 @@ nav a {
 
 nav a:hover {
     background: #000328ad;
-    border-bottom: solid;
+    text-shadow: white;
     font-size: 13px;
 }
 
@@ -143,9 +143,10 @@ button {
 }
 
 button:hover {
-    width: 160px;
+    width: 155px;
     background-image: linear-gradient(-90deg, rgb(67, 60, 180), rgb(37, 44, 145), rgb(67, 60, 180));
     color: white;
+    font-size: 14px;
 }
 
 .social-links {
